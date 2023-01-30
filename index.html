@@ -1,84 +1,74 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Data Scientist - John Doe</title>
     <style>
-      /* Define the styles for the body */
-      body {
-        background-image: url('https://www.example.com/background-image.jpg');
-        background-size: cover;
-        font-family: Arial, sans-serif;
-        color: #34495E;
-      }
-      /* Define the styles for the header */
+      /* Add some styling for the header */
       header {
+        background-color: lightgray;
+        padding: 30px;
         text-align: center;
-        background-color: #FFFFFF;
-        box-shadow: 0px 10px 20px #D3D3D3;
-        padding: 2em;
       }
-      /* Define the styles for the main section */
-      main {
-        max-width: 800px;
-        margin: 2em auto;
-        padding: 1em;
+
+      /* Add some styling for the project cards */
+      .project-card {
+        background-color: white;
+        border: 1px solid gray;
+        box-shadow: 2px 2px lightgray;
+        margin: 20px;
+        padding: 20px;
+        width: 80%;
       }
-      /* Define the styles for the menu */
-      nav {
-        background-color: #F5F5F5;
-        padding: 1em;
-        border-radius: 5px;
-        box-shadow: 0px 10px 20px #D3D3D3;
-        margin-bottom: 2em;
+
+      /* Add some styling for the project title */
+      .project-title {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 10px;
       }
-      nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: space-between;
-      }
-      nav li {
-        display: inline-block;
-        margin-right: 1em;
-      }
-      nav a {
-        color: #34495E;
-        text-decoration: none;
-      }
-      /* Define the styles for the section headings */
-      h2 {
-        font-size: 1.5em;
-        margin-bottom: 0.5em;
-      }
-      /* Define the styles for the paragraph text */
-      p {
-        font-size: 1.2em;
+
+      /* Add some styling for the project description */
+      .project-description {
+        font-size: 16px;
         line-height: 1.5;
-        margin-bottom: 1.5em;
+        margin-bottom: 10px;
       }
-      /* Define the styles for the "About Me" section */
-      section {
-        background-color: #FFFFFF;
-        padding: 1em;
-        border-radius: 5px;
-        box-shadow: 0px 10px 20px #D3D3D3;
+
+      /* Add some styling for the project timeline */
+      .project-timeline {
+        font-size: 14px;
+        font-style: italic;
+        margin-top: 10px;
       }
     </style>
   </head>
   <body>
+    <!-- Add a header with your name -->
     <header>
-      <h1>John Doe</h1>
-      <h2>Data Scientist</h2>
+      <h1>Mohammad Kashani</h1>
+      <p>Ph.D. holder in Computer Science</p>
+      <p>Data Scientist and Machine Learning Expert</p>
     </header>
-    <nav>
-      <ul>
-        <li><a href="#about-me">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-      </ul>
-    </nav>
-    <main>
-      <section id="about-me">
-        <h2>About Me</h2>
-        <p>
-          I am a data scientist with a background in computer science and a passion for using data to drive better decision making. My expertise includes data analysis, data modeling, and machine learning, and I have experience
+
+    <!-- Add the first project -->
+    <div class="project-card">
+      <div class="project-title">
+        Deep Learning for Analysis of Time-Series in Smart Home Environments
+      </div>
+      <div class="project-timeline">
+        Sep 2017 - Sep 2022
+      </div>
+      <div class="project-description">
+        I have completed a project on Non-Intrusive Load Monitoring (NILM) during my Ph.D. The main focus of the project was to monitor the power consumption of electrical devices in households using deep learning techniques to detect malfunctioning devices and reduce overall power consumption. By monitoring and analyzing the power consumption patterns using deep learning algorithms, I was able to provide suggestions for households to reduce their total power consumption, thus saving on their electrical energy bills. Additionally, the concept of monitoring power consumption can be extended to industrial settings as well, with the potential to save even more electrical energy. I am proud of the solution that I proposed, as it has the potential to make a significant impact on energy saving and conservation using deep learning techniques.
+      </div>
+    </div>
+
+    <!-- Add the second project -->
+    <div class="project-card">
+      <div class="project-title">
+        Monitoring Algorithm Development and Reporting Application for Reducing CO2 Emissions from Mine Site-Based Fleet Vehicles
+      </div>
+      <div class="project-timeline">
+        Mar 2022 - Jun 2022
+      </div>
+      <div class="project-description">
+        I have been working on a project that focuses on reducing the CO2 emissions of mining fleets. With increasing concern about global warming, it has become important to identify the factors that contribute to CO2 emissions in this industry
