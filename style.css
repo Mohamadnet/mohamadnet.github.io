@@ -1,0 +1,29 @@
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section h2 {
+  color: #333;
+}
+
+.section.bg-light {
+  background-color: #f8f9fa;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+}
