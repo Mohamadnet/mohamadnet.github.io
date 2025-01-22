@@ -1,170 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mohammad Kashani - Personal Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Kashani - Web Designer</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    .navbar {
-      background-color: #004d99;
-    }
-    .navbar-brand, .nav-link {
-      color: #ffffff !important;
-    }
-    .navbar-brand:hover, .nav-link:hover {
-      color: #cccccc !important;
-    }
-    .about {
-      background-color: #f2f2f2;
-      padding: 50px 0;
-    }
-    .section-header {
-      color: #004d99;
-      margin-bottom: 20px;
-    }
-    footer {
-      background-color: #004d99;
-      color: #ffffff;
-      padding: 20px 0;
-    }
-    footer p {
-      margin: 0;
-    }
-  </style>
 </head>
 <body>
   <header>
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="#">Mohammad Kashani</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
 
-  <section id="about" class="about">
+  <section id="about" class="section bg-light">
+    <div class="container text-center">
+      <h2>About Me</h2>
+      <p>I am Mohammad Kashani, a web designer with expertise in creating responsive, visually engaging, and technically advanced websites using modern technologies.</p>
+    </div>
+  </section>
+
+  <section id="education" class="section">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-header">About Me</h2>
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <p>
-            I am Mohammad Kashani, a technology professional with a PhD in Computer Science specializing in data science and machine learning. My expertise spans developing scalable solutions using Python, AWS, and cloud-based systems. I have extensive experience in mining fleet planning, backend development, and optimization projects. My passion lies in solving real-world problems through innovation and collaboration. In my free time, I enjoy salsa dancing and staying current with emerging technologies.
-          </p>
+      <h2 class="text-center">Education</h2>
+      <div class="card">
+        <div class="card-body">
+          <h5>PhD in Computer Science</h5>
+          <p>University of Newcastle | Nov 2017 - Apr 2022</p>
+          <p>Thesis: Advanced solutions in AI and web technologies.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!--Education Section-->
-  <div id="education" class="container mt-5">
-    <h2 class="text-center section-header">Education</h2>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card bg-light mb-3">
-          <div class="card-header">PhD in Computer Science</div>
-          <div class="card-body">
-            <h5 class="card-title">University of Newcastle</h5>
-            <p class="card-text">November 2017 - April 2022</p>
-            <p>Thesis: Deep Learning for Analysis of Time-Series in Smart Home Environments. Focused on machine learning models to optimize energy efficiency and reduce consumption in residential areas by up to 15%.</p>
-          </div>
+  <section id="experience" class="section bg-light">
+    <div class="container">
+      <h2 class="text-center">Experience</h2>
+      <div class="card">
+        <div class="card-body">
+          <h5>Consultant</h5>
+          <p>BC 88 Pty Ltd | Nov 2022 - Mar 2023</p>
+          <p>Developed cloud-based solutions and optimized web experiences.</p>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <!--Experience Section-->
-  <div id="experience" class="container mt-5">
-    <h2 class="text-center section-header">Experience</h2>
-    <div class="row">
-
-      <!--Consultant at BC 88 Pty Ltd-->
-      <div class="col-md-12">
-        <div class="card bg-light mb-3">
-          <div class="card-header">Consultant at BC 88 Pty Ltd</div>
-          <div class="card-body">
-            <h5 class="card-title">Perth, Western Australia (Remote)</h5>
-            <p class="card-text">November 2022 - March 2023</p>
-            <p>Developed backend systems using Python and deployed machine learning models on AWS. Implemented CI/CD pipelines and automated workflows for operational efficiency.</p>
-          </div>
-        </div>
-      </div>
-
-      <!--Demand Analyst at WesTrac-->
-      <div class="col-md-12">
-        <div class="card bg-light mb-3">
-          <div class="card-header">Demand Analyst at WesTrac</div>
-          <div class="card-body">
-            <h5 class="card-title">Newcastle, Australia</h5>
-            <p class="card-text">July 2023 - December 2024</p>
-            <p>Planned and optimized mining fleet operations. Used SQL, Power BI, and analytics to forecast demand, improve workflows, and enhance decision-making processes.</p>
-          </div>
-        </div>
-      </div>
-
-      <!--Internship as a Data Scientist at Hexagon Mining-->
-      <div class="col-md-12">
-        <div class="card bg-light mb-3">
-          <div class="card-header">Data Scientist Intern at Hexagon Mining</div>
-          <div class="card-body">
-            <h5 class="card-title">Newcastle, Australia</h5>
-            <p class="card-text">March 2022 - June 2022</p>
-            <p>Designed and implemented data-driven approaches for decarbonizing mining fleets. Applied Python, SQL, and data visualization tools to deliver actionable insights for stakeholders.</p>
-          </div>
-        </div>
-      </div>
+  <section id="skills" class="section">
+    <div class="container text-center">
+      <h2>Skills</h2>
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">HTML5</li>
+        <li class="list-group-item">CSS3</li>
+        <li class="list-group-item">JavaScript</li>
+        <li class="list-group-item">React</li>
+        <li class="list-group-item">Bootstrap</li>
+      </ul>
     </div>
-  </div>
+  </section>
 
-  <!--Skills Section-->
-  <div id="skills" class="container mt-5">
-    <h2 class="text-center section-header">Skills</h2>
-    <div class="row">
-      <div class="col-md-12">
-        <ul class="list-group">
-          <li class="list-group-item">Programming: Python, SQL, Java</li>
-          <li class="list-group-item">Data Tools: Power BI, AWS, Azure</li>
-          <li class="list-group-item">Frameworks: Flask, TensorFlow, Scikit-learn</li>
-          <li class="list-group-item">Cloud Services: AWS (EC2, S3), Azure Data Factory</li>
-          <li class="list-group-item">DevOps: CI/CD, Docker</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <footer class="bg-light text-center py-3">
-    <p>&copy; 2025 Mohammad Kashani. All rights reserved.</p>
+  <footer class="text-center bg-dark text-light py-3">
+    <p>&copy; 2025 Mohammad Kashani</p>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
