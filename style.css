@@ -2,7 +2,19 @@
 body {
   font-family: Arial, sans-serif;
 }
-
+.section-header {
+  color: #004d99;
+  margin-bottom: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.card {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  border: none;
+}
+.container {
+  margin-bottom: 40px;
+}
 .navbar {
   background-color: #004d99;
 }
